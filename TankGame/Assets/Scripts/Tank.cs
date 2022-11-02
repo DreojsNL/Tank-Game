@@ -49,7 +49,7 @@ public class Tank : MonoBehaviour
             if (TankController == true)
             {
              
-                    transform.Translate(Vector2.right * Input.GetAxisRaw("Horizontal") * MoveSpeed * Time.deltaTime);
+                    transform.Translate(new Vector2(1, 0) * Input.GetAxisRaw("Horizontal") * MoveSpeed * Time.deltaTime);
                 
             }
             if (TankHit == true)
