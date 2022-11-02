@@ -11,6 +11,9 @@ public class Tank : MonoBehaviour
     public bool TankHit;
     public bool TankHit2;
     Score point1;
+
+    private bool isPauze;
+
     private void Start()
     {
         GameObject f = GameObject.FindGameObjectWithTag("Score");
@@ -20,6 +23,26 @@ public class Tank : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isPauze = !isPauze;
+            if (isPauze)
+            {
+                Time.timeScale = 0;
+            }
+            else if (!isPauze)
+            {
+                Time.timeScale = 1;
+            }
+        }
+        
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            transform.rotation = Quaternion.identity;
+            transform.Translate(Vector2.up * 0.8f);
+        }
+
+
         if (point1.PL1 == true && point1.PL2 == true)
         {
 

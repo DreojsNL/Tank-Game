@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Menu.unity
+    guid: 65af355489d7a2c498a8a810ffc1b9dd
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: b4b0d708a197d174a90f73397c04dd09
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 41a28a86ac79f3e4a8256643967a67ac
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 7f0cd3d10656f6c459bb72570e20bf29
+  - enabled: 1
+    path: Assets/Scenes/Level2 1.unity
+    guid: b6b784cbd9f3b6c45812e99a43fe3ca1
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 7ef2d5a6b4a4c1f448410dc490b932ec
   m_configObjects: {}

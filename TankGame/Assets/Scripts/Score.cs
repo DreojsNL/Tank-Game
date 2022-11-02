@@ -6,8 +6,8 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    public static int player1Score = 3;
-    public static int player2Score = 3;
+    public int player1Score = 3;
+    public int player2Score = 3;
     public bool PL1 = true;
     public bool PL2 = true;
     public TextMeshProUGUI p1Text;
