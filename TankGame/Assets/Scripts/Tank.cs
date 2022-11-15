@@ -11,6 +11,7 @@ public class Tank : MonoBehaviour
     public bool TankHit;
     public bool TankHit2;
     Score point1;
+    BulletControler tank;
 
     private bool isPauze;
 
@@ -48,8 +49,7 @@ public class Tank : MonoBehaviour
 
             if (TankController == true)
             {
-             
-                    transform.Translate(new Vector2(1, 0) * Input.GetAxisRaw("Horizontal") * MoveSpeed * Time.deltaTime);
+                 transform.Translate(new Vector2(1, 0) * Input.GetAxisRaw("Horizontal") * MoveSpeed * Time.deltaTime);
                 
             }
             if (TankHit == true)
